@@ -1,7 +1,6 @@
 {
   "name": "facerecoginition-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,5 +20,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvi0181/smart-brain-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuvi0181/smart-brain-api/issues"
+  },
+  "homepage": "https://github.com/yuvi0181/smart-brain-api#readme",
+  "description": ""
 }
