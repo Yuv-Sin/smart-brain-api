@@ -3,7 +3,9 @@ const app = express();
 const bodyParser = require('body-parser');
 const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
-const knex = require('knex');
+const knex = require('knex'); 
+
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0; 
 
 const db = knex({
   client: 'pg',
